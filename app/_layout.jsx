@@ -4,8 +4,12 @@ import {SplashScreen, Stack} from 'expo-router';
 import {useFonts} from 'expo-font'
 import { useEffect } from 'react';
 
-SplashScreen.preventAutoHideAsync();
 
+
+
+
+
+SplashScreen.preventAutoHideAsync();
 
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
